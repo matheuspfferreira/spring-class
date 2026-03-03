@@ -32,6 +32,6 @@ public class StudentService {
 
         newStudent.setName(studentModel.getName());
 
-        return studentRepository.save(studentModel);
+        return studentRepository.save(newStudent);
     }
 }
